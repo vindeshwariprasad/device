@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Device Information App</title>
+</head>
+<body>
+    <h1>Device Information App</h1>
+    <div id="buttons-container">
+        <button onclick="getDeviceInfo('battery')">Battery</button>
+        <button onclick="getDeviceInfo('motar')">Mortar</button>
+        <button onclick="getDeviceInfo('communication')">Communication</button>
+        <button onclick="getDeviceInfo('led')">LED</button>
+        <button onclick="getDeviceInfo('power')">Power</button>
+    </div>
+    <div id="info-container">
+        <h2>Device Information</h2>
+        <div id="device-info"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
